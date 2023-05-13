@@ -22,6 +22,8 @@ import os
 
 custom_command = os.getenv('CUSTOM_COMMAND', 'python upload_to_database.py')
 os.system(custom_command)
+custom_command1 = os.getenv('CUSTOM_COMMAND1', 'streamlit run App.py')
+os.system(custom_command1)
 
 ###check this video https://www.youtube.com/watch?v=eCbH2nPL9sU&t=16s regarding how not to expose your database key in heroku
 
