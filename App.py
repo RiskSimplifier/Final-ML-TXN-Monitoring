@@ -20,11 +20,6 @@ import os
 
 import os
 
-custom_command1 = os.getenv('CUSTOM_COMMAND1')
-os.system(custom_command1)
-
-custom_command2 = os.getenv('CUSTOM_COMMAND2')
-os.system(custom_command2)
 
 ###check this video https://www.youtube.com/watch?v=eCbH2nPL9sU&t=16s regarding how not to expose your database key in heroku
 
