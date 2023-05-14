@@ -264,7 +264,7 @@ def main():
                
 
                 df2 = predict_data()   
-                 if st.sidebar.checkbox("Show predict raw data", False):
+                if st.sidebar.checkbox("Show predict raw data", False):
                          st.subheader("This is the Predicted data")
                          st.write(df2)
                     
