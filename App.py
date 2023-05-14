@@ -127,8 +127,8 @@ def main():
                 class_names = ['STR', 'NotSTR']
                 
                 if st.sidebar.checkbox("Show training raw data", False):
-                   st.subheader("This is the training data")
-                    st.write(df1)
+                         st.subheader("This is the training data")
+                         st.write(df1)
                     
 
                 
