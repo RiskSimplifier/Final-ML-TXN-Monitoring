@@ -126,9 +126,9 @@ def main():
                 
                 class_names = ['STR', 'NotSTR']
                 
-                # if st.sidebar.checkbox("Show training raw data", False):
-                #     st.subheader("This is the training data")
-                #     st.write(df1)
+                if st.sidebar.checkbox("Show training raw data", False):
+                   st.subheader("This is the training data")
+                    st.write(df1)
                     
 
                 
@@ -264,9 +264,9 @@ def main():
                
 
                 df2 = predict_data()   
-                # if st.sidebar.checkbox("Show predict raw data", False):
-                #         st.subheader("This is the Predicted data")
-                #         st.write(df2)
+                 if st.sidebar.checkbox("Show predict raw data", False):
+                         st.subheader("This is the Predicted data")
+                         st.write(df2)
                     
 
                 if st.sidebar.button("Predict", key='predict'):
