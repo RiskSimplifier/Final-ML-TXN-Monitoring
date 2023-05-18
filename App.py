@@ -24,7 +24,14 @@ import os
 ###check this video https://www.youtube.com/watch?v=eCbH2nPL9sU&t=16s regarding how not to expose your database key in heroku
 
 def main():
-   
+   Initial_button = st.sidebar.button("BEFORE YOU START, READ THIS !!! 📓") 
+    if Initial_button:
+          webbrowser.open('http://siorik.com/')
+         
+    st.write()
+    Second_button = st.sidebar.button("ABOUT THE AUTHOR !!! 🧑‍💻️") 
+    if Second_button:
+         webbrowser.open('https://np.linkedin.com/in/kirankumarshah')
      
     menu = ["Login","Sign Up"]
     choice = st.sidebar.selectbox("Menu", menu)
@@ -126,7 +133,7 @@ def main():
                 
                 class_names = ['STR', 'NotSTR']
                 
-                if st.sidebar.checkbox("Show training raw data", False):
+                if st.sidebar.checkbox("Pre-process training raw data", False):
                          st.subheader("This is the training data")
                          st.write(df1)
                     
@@ -264,7 +271,7 @@ def main():
                
 
                 df2 = predict_data()   
-                if st.sidebar.checkbox("Show predict raw data", False):
+                if st.sidebar.checkbox("Pre-process predict raw data", False):
                          st.subheader("This is the Predicted data")
                          st.write(df2)
                     
