@@ -24,7 +24,7 @@ import os
 ###check this video https://www.youtube.com/watch?v=eCbH2nPL9sU&t=16s regarding how not to expose your database key in heroku
 
 def main():
-   Initial_button = st.sidebar.button("BEFORE YOU START, READ THIS !!! 📓") 
+    Initial_button = st.sidebar.button("BEFORE YOU START, READ THIS !!! 📓") 
     if Initial_button:
           webbrowser.open('http://siorik.com/')
          
