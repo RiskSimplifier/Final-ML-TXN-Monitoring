@@ -55,6 +55,14 @@ def main():
 
         if authentication_status:
         #------------------MAIN PROGRAM ------------------------------#
+                Initial_button = st.sidebar.button("BEFORE YOU START, READ THIS !!! 📓") 
+                if Initial_button:
+                        webbrowser.open('https://instruction-to-ml-app.onrender.com')
+         
+                st.write()
+                Second_button = st.sidebar.button("ABOUT THE AUTHOR !!! 🧑‍💻️") 
+                if Second_button:
+                    webbrowser.open('https://kiran-kumar-shah.onrender.com/')
                 st.sidebar.title(f"Welcome {name}")
                 # ---- SIDEBAR ----
                 authenticator.logout("Logout", "sidebar")
