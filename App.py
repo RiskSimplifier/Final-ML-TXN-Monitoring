@@ -16,9 +16,10 @@ from sklearn.metrics import classification_report
 from sklearn.ensemble import RandomForestClassifier
 import database as db
 import numpy as np
-import os
+import webbrowser
 
-import os
+
+
 
 
 ###check this video https://www.youtube.com/watch?v=eCbH2nPL9sU&t=16s regarding how not to expose your database key in heroku
@@ -26,12 +27,12 @@ import os
 def main():
     Initial_button = st.sidebar.button("BEFORE YOU START, READ THIS !!! 📓") 
     if Initial_button:
-          webbrowser.open('http://siorik.com/')
+          webbrowser.open('https://instruction-to-ml-app.onrender.com')
          
     st.write()
     Second_button = st.sidebar.button("ABOUT THE AUTHOR !!! 🧑‍💻️") 
     if Second_button:
-         webbrowser.open('https://np.linkedin.com/in/kirankumarshah')
+         webbrowser.open('https://kiran-kumar-shah.onrender.com/')
      
     menu = ["Login","Sign Up"]
     choice = st.sidebar.selectbox("Menu", menu)
