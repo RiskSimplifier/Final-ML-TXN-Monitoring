@@ -26,7 +26,7 @@ import webbrowser
 st.sidebar.write("BEFORE YOU START, READ THIS !!! 📓") 
 st.sidebar.write('https://instruction-to-ml-app.onrender.com')
 st.sidebar.write("ABOUT THE AUTHOR !!! 🧑‍💻️") 
-st.sidebar.write('https://instruction-to-ml-app.onrender.com')  
+st.sidebar.write('https://kiran-kumar-shah.onrender.com')  
      
 def main():
     
