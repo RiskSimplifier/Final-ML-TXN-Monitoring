@@ -23,17 +23,17 @@ import webbrowser
 
 
 ###check this video https://www.youtube.com/watch?v=eCbH2nPL9sU&t=16s regarding how not to expose your database key in heroku
+Initial_button = st.sidebar.button("BEFORE YOU START, READ THIS !!! 📓") 
+if Initial_button:
+      webbrowser.open('https://instruction-to-ml-app.onrender.com')
 
-def main():
-    Initial_button = st.sidebar.button("BEFORE YOU START, READ THIS !!! 📓") 
-    if Initial_button:
-          webbrowser.open('https://instruction-to-ml-app.onrender.com')
-         
-    st.write()
-    Second_button = st.sidebar.button("ABOUT THE AUTHOR !!! 🧑‍💻️") 
-    if Second_button:
-         webbrowser.open('https://kiran-kumar-shah.onrender.com/')
+st.write()
+Second_button = st.sidebar.button("ABOUT THE AUTHOR !!! 🧑‍💻️") 
+if Second_button:
+     webbrowser.open('https://kiran-kumar-shah.onrender.com/')
      
+def main():
+    
     menu = ["Login","Sign Up"]
     choice = st.sidebar.selectbox("Menu", menu)
     if choice == "Login":
