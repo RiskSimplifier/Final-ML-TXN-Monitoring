@@ -27,9 +27,9 @@ st.sidebar.write("BEFORE YOU START, READ THIS !!! 📓")
 st.sidebar.write('https://instruction-to-ml-app.onrender.com')
 st.sidebar.write("ABOUT THE AUTHOR !!! 🧑‍💻️") 
 st.sidebar.write('https://kiran-kumar-shah.onrender.com') 
-Second_button = st.sidebar.button("AML/CFT Zero To Hero Course !!! 👨‍🎓") 
-          if Second_button:
-                    webbrowser.open('https://www.udemy.com/course/amlcft-zero-to-hero-course/?referralCode=CD51C836B3518E24CA71')
+st.sidebar.write("AML/CFT Zero To Hero Course !!! 👨‍🎓") 
+st.sidebar.write('https://www.udemy.com/course/amlcft-zero-to-hero-course/?referralCode=CD51C836B3518E24CA71') 
+
     
 def main():
     
