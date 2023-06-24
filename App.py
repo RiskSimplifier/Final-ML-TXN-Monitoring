@@ -27,9 +27,9 @@ st.sidebar.write("BEFORE YOU START, READ THIS !!! 📓")
 st.sidebar.write('https://instruction-to-ml-app.onrender.com')
 st.sidebar.write("ABOUT THE AUTHOR !!! 🧑‍💻️") 
 st.sidebar.write('https://kiran-kumar-shah.onrender.com') 
-if st.button("AML/CFT Zero To Hero Course !!! 👨‍🎓L"):
-    webbrowser.open_new_tab("https://www.udemy.com/course/amlcft-zero-to-hero-course/?referralCode=CD51C836B3518E24CA71")
-    
+st.sidebar.write("AML/CFT Zero To Hero Course !!! 👨‍🎓") 
+st.sidebar.write('https://rb.gy/zm55r') 
+
 def main():
     
     menu = ["Login","Sign Up"]
